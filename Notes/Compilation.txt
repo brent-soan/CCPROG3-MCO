@@ -1,0 +1,12 @@
++---------------------------+
+|     MAC COMPIILATION      |
++---------------------------+
+javac $(find . -name "*.java")
+java Driver.java
+
++---------------------------+
+|   WINDOWS COMPIILATION    |
++---------------------------+
+javac *.java
+javac Creatures/*.java
+java Driver

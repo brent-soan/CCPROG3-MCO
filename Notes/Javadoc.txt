@@ -1,0 +1,5 @@
++--------------------------+
+|    WINDOWS GENERATION    |
++--------------------------+
+javadoc *.java -d Javadoc -subpackages Creatures
+start Javadoc/index.html
