@@ -90,17 +90,17 @@ public class EvolutionView extends InventoryView {
             this.promptLbl.setText("SUCCESSFULLY EVOLVED");
         }
         else {
-            if(this.CEvolutionModel.getCCreatureOne() == this.CEvolutionModel.getCCreatureTwo()) {
+            if(this.CEvolutionModel.getCreatureOne() == this.CEvolutionModel.getCreatureTwo()) {
                 this.promptLbl.setText("CAN'T EVOLVE SAME UNIQUE CREATURE");
             }
-            else if(this.CEvolutionModel.getCCreatureOne().getEvolutionLevel() > 2 || this.CEvolutionModel.getCCreatureTwo().getEvolutionLevel() > 2) {
+            else if(this.CEvolutionModel.getCreatureOne().getEvolutionLevel() > 2 || this.CEvolutionModel.getCreatureTwo().getEvolutionLevel() > 2) {
                 this.promptLbl.setText("CAN'T EVOLVE EVOLUTION LEVEL 3 CREATURES");
             }
-            else if(this.CEvolutionModel.getCCreatureOne() != this.CEvolutionModel.getCCreatureTwo()) {
-                if(this.CEvolutionModel.getCCreatureOne().getEvolutionLevel() != this.CEvolutionModel.getCCreatureTwo().getEvolutionLevel()) {
+            else if(this.CEvolutionModel.getCreatureOne() != this.CEvolutionModel.getCreatureTwo()) {
+                if(this.CEvolutionModel.getCreatureOne().getEvolutionLevel() != this.CEvolutionModel.getCreatureTwo().getEvolutionLevel()) {
                     this.promptLbl.setText("CAN'T EVOLVE CREATURES WITH DIFFERENT EVOLUTION LEVELS");
                 }
-                else if(this.CEvolutionModel.getCCreatureOne().getFamily() != this.CEvolutionModel.getCCreatureTwo().getFamily()) {
+                else if(this.CEvolutionModel.getCreatureOne().getFamily() != this.CEvolutionModel.getCreatureTwo().getFamily()) {
                     this.promptLbl.setText("CAN'T EVOLVE CREATURES WITH DIFFERENT FAMILIES");
                 }
             }

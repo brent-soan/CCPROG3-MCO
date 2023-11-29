@@ -100,7 +100,7 @@ public class EvolutionModel {
      *
      * @return The first creature used for evolution.
      */
-    public Creature getCCreatureOne() {
+    public Creature getCreatureOne() {
         return CCreatureOne;
     }
 
@@ -109,17 +109,17 @@ public class EvolutionModel {
      *
      * @return The second creature used for evolution.
      */
-    public Creature getCCreatureTwo() {
+    public Creature getCreatureTwo() {
         return CCreatureTwo;
     }
 
     /**
      * Sets the first creature used for evolution.
      *
-     * @param cCreatureOne The first creature used for evolution.
+     * @param CCreatureOne The first creature used for evolution.
      */
-    public void setCCreatureOne(Creature cCreatureOne) {
-        this.CCreatureOne = cCreatureOne;
+    public void setCCreatureOne(Creature CCreatureOne) {
+        this.CCreatureOne = CCreatureOne;
     }
 
     /**
@@ -127,7 +127,7 @@ public class EvolutionModel {
      *
      * @param cCreatureTwo The second creature used for evolution.
      */
-    public void setCCreatureTwo(Creature cCreatureTwo) {
-        this.CCreatureTwo = cCreatureTwo;
+    public void setCCreatureTwo(Creature CCreatureTwo) {
+        this.CCreatureTwo = CCreatureTwo;
     }
 }

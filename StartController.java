@@ -67,15 +67,6 @@ public class StartController extends Controller {
     }
 
     /**
-     * Gets the OptionsController instance associated with this StartController.
-     *
-     * @return The OptionsController instance.
-     */
-    public OptionsController getOptionsController() {
-        return this.COptionsController;
-    }
-
-    /**
      * Initializes a MouseListener for selecting a starter creature.
      *
      * @param cFamily The family identifier of the creature.
@@ -112,5 +103,14 @@ public class StartController extends Controller {
 
             public void mouseClicked(MouseEvent e) {}
         };
+    }
+
+    /**
+     * Gets the OptionsController instance associated with this StartController.
+     *
+     * @return The OptionsController instance.
+     */
+    public OptionsController getOptionsController() {
+        return this.COptionsController;
     }
 }
