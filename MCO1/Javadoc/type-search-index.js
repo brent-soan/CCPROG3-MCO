@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"App"},{"p":"<Unnamed>","l":"Area"},{"p":"<Unnamed>","l":"BattlePhase"},{"p":"<Unnamed>","l":"Creature"},{"p":"<Unnamed>","l":"Driver"},{"p":"<Unnamed>","l":"Inventory"},{"p":"<Unnamed>","l":"Utils"}];updateSearchResults();
